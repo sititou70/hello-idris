@@ -1,0 +1,5 @@
+main: main.idr
+	idris main.idr -o main
+
+clean:
+	rm -rf main
